@@ -1,1 +1,1 @@
-The C function and nested loops readme
+Functions and nested loops task readme
