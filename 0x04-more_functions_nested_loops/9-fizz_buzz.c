@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * fizzbuzz - Entry point (Prints numbers 0-100)
+ * main - Functions that print numbers from 0-100
  * Print Fizz for multiples of 3
  * Print Buzz for multiples of 5
  * Print FizzBuzz for multiples of 3 and 5
@@ -23,7 +23,7 @@ int main(void)
 		else if ((num % 5) == 0)
 			printf("Buzz");
 
-		else 
+		else
 			printf("%d", num);
 
 		if (num == 100)
