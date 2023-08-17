@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_diagonal - Prints diagonal line on terminal
- * @n: Number of times the character \ should be printed
+ * print_diagonal - Prints diagonal line
+ * @n: num of times \ should be printed
+ * Return: 0 (End program)
  */
 void print_diagonal(int n)
 {
@@ -20,7 +21,7 @@ void print_diagonal(int n)
 				if (j == i)
 				_putchar('\\');
 				else if (j < i)
-				_putchar(' ')
+				_putchar(' ');
 			}
 			_putchar('\n');
 		}
