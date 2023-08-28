@@ -28,6 +28,7 @@ void print_buffer(char *b, int size)
 			if (i < j)
 				printf("%02x", *(b + o + i));
 			else
+<<<<<<< HEAD
 				printf(" ");
 			if (i % 2)
 			{
@@ -35,6 +36,15 @@ void print_buffer(char *b, int size)
 			}
 		}
 		for (i - 0; i < j; i++)
+=======
+				printf("  ");
+			if (i % 2)
+			{
+				printf(" ");
+			}
+		}
+		for (i = 0; i < j; i++)
+>>>>>>> 8fb694dd9e39b7d7dc332f122afa53861922c37b
 		{
 			int c = *(b + o + i);
 
