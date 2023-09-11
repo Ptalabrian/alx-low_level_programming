@@ -1,8 +1,8 @@
-#include <stlib.h>
-#include <dog.h>
+#include <stdlib.h>
+#include "dog.h"
 
 /**
- * Init_dog initializes a variable of type struct dog
+ * init_dog - initializes a variable of type struct dog
  * @d: pointer to struct dog to initiate
  * @name: name to initialize
  * @age: age to initialize
@@ -15,6 +15,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		d = malloc(sizeof(struct dog));
 	d->name = name;
 	d->age = age;
-	d->owner;
+	d->owner = owner;
 
 }
